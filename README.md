@@ -1,4 +1,4 @@
-# Philadelphia_crime_dataset
+# Philadelphia crime dataset
 
 This is the final project for DSCI-511 Class, where we need to create a dataset using data extraction, data cleaning and various pre-processing tasks. 
 
