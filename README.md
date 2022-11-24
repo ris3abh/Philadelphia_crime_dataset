@@ -11,7 +11,6 @@ Using various libraries like twython, tweepy and others, we will extract data fr
 
 API's used-
 1. Twitter API: https://developer.twitter.com/en/docs/twitter-api
-  a. using twython and tweepy library   
-3. Stock Data:  https://www.alphavantage.co/query?function=TIME_SERIES_INTRADAY_EXTENDED&symbol=TSCO&interval=60min&slice=year1month2&adjusted=false&apikey=51CJ0F7JX8VVOM94
-4. 
+2. Stock Data:  https://www.alphavantage.co/query function=TIME_SERIES_INTRADAY_EXTENDED&symbol=TSCO&interval=60min&slice=year1month2&adjusted=false&apikey=51CJ0F7JX8VVOM94
+3. 
 
