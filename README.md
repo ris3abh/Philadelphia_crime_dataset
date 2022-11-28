@@ -9,8 +9,11 @@ Using BeautifulSoap we performed webscrapping on the True Crime daily dataset fo
 
 API's used-
 1. Stock Data:  Using the alpha vantage API we collected the opening closing volume and other data for each date, The data was easily accessible using the API, we chose to go with the API form of collection. for each day the dataset shows us the value of stocks after each hour.(https://www.alphavantage.co/)
+![Stock Photo](https://user-images.githubusercontent.com/59435391/204216359-dad6c174-8818-4fd0-a8f5-4206eb739439.PNG)
 
 2. holiday API: Using the holiday API we were able to pin point if a given day would be a holiday or not. This can be used later to notice if crime rates are high or low during the holiday seasons.(https://holidayapi.com/v1/holidays?pretty&key=e1df5793-02a5-4982-bf6d-df30497e8305&country=US&year=2021)
+![Holiday](https://user-images.githubusercontent.com/59435391/204216867-822c05ab-2908-428c-b99e-2c8d6e54a665.PNG)
+
 
 3. weather API: Using the weather API we were able to pin point the weather on the given day. This can be used later to notice if crime rates are high or low during certain seasons seasons and other climate attributes.(http://api.weatherapi.com/v1/history.json?key=2eec0b76d1b24fe28c5164334222511&q=Philadelphia&dt='+date)
 
