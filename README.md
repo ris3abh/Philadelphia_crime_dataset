@@ -11,5 +11,6 @@ API's used-
 1. Twitter API: https://developer.twitter.com/en/docs/twitter-api
 2. Stock Data:  https://www.alphavantage.co/
 3. True Crime daily data:  https://truecrimedaily.com/search/?q=philadelphia&page=2
-4. 
+4. holiday API: https://holidayapi.com/v1/holidays?pretty&key=e1df5793-02a5-4982-bf6d-df30497e8305&country=US&year=2021
+5. weather API: http://api.weatherapi.com/v1/history.json?key=2eec0b76d1b24fe28c5164334222511&q=Philadelphia&dt='+date
 
