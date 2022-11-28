@@ -28,6 +28,10 @@ API's used-
 
 6. Twitter API: using the twitter API elevated access, we generated tokens and used them to extract data from the twitter handle of Philadelphia Police, Which gives live reporting of criminal activities in the philadelphia region. The dataset has 5 attributes namely - tweets, created_at, the user who posted it, likes, retweets and the link to the tweet. This can be used in various ways by the philadelphia police, philadelphia public safety, drexel and Upenn Police departments and others as well. The twitter text data can be used to understand the nature of crimes in the philadelphia region.(https://developer.twitter.com/en/docs/twitter-api)
 
+![Twitter API](https://user-images.githubusercontent.com/59435391/204380560-dc09f9dd-c796-4716-ad34-ccc3749aad24.jpeg)
+
 7. True Crime daily scraping: Using beautifulSoup and requests we web scrapped the data from the true crime daily website, this is essentialy a news blog for the USA, On the website we scarpped data for the crimes which have happened in the philadelphia region. From the initial page, we were able to extract all the links to the blog post about individual crimes and their detailed text. This dataset has 5 columns - links, titles, text, date and time. This can be used in a similar way as the twitter API.( https://truecrimedaily.com/search/?q=philadelphia&page=2)
+
+![True Crime](https://user-images.githubusercontent.com/59435391/204380575-80a3492b-10ce-43f1-8420-f2010bc06b01.jpeg)
 
 These datasets can not be merged with the crime and weather dataset as the crimes reported in the crime and weather dataset can vary from the twitter and true crime daily dataset.
