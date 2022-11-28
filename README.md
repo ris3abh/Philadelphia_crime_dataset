@@ -9,15 +9,21 @@ Using BeautifulSoap we performed webscrapping on the True Crime daily dataset fo
 
 API's used-
 1. Stock Data:  Using the alpha vantage API we collected the opening closing volume and other data for each date, The data was easily accessible using the API, we chose to go with the API form of collection. for each day the dataset shows us the value of stocks after each hour.(https://www.alphavantage.co/)
+
+
 ![Stock Photo](https://user-images.githubusercontent.com/59435391/204216359-dad6c174-8818-4fd0-a8f5-4206eb739439.PNG)
 
 2. holiday API: Using the holiday API we were able to pin point if a given day would be a holiday or not. This can be used later to notice if crime rates are high or low during the holiday seasons.(https://holidayapi.com/v1/holidays?pretty&key=e1df5793-02a5-4982-bf6d-df30497e8305&country=US&year=2021)
+
+
 ![Holiday](https://user-images.githubusercontent.com/59435391/204216867-822c05ab-2908-428c-b99e-2c8d6e54a665.PNG)
 
 
 3. weather API: Using the weather API we were able to pin point the weather on the given day. This can be used later to notice if crime rates are high or low during certain seasons seasons and other climate attributes.(http://api.weatherapi.com/v1/history.json?key=2eec0b76d1b24fe28c5164334222511&q=Philadelphia&dt='+date)
 
 5. Crime dataset: The core requisite for this dataset depends on the Open Data Philly API. The response gives us data starting from 1st January, 2022 till today's date. The API was run at the end of each day to get the latest data. The major problem with the response was that it was dirty and raw and was not readable to the user and several columns were unnecessary. After iterating through the response as a list and cleaning the rows and dropping several columns, a cleaned dataset was obtained and converted to a CSV File.
+
+
 ![WhatsApp Image 2022-11-27 at 21 38 53](https://user-images.githubusercontent.com/59435391/204214117-b9aa6a8e-cf64-4e53-8017-5f02ab86766a.jpeg)
 
 6. Twitter API: using the twitter API elevated access, we generated tokens and used them to extract data from the twitter handle of Philadelphia Police, Which gives live reporting of criminal activities in the philadelphia region. The dataset has 5 attributes namely - tweets, created_at, the user who posted it, likes, retweets and the link to the tweet. This can be used in various ways by the philadelphia police, philadelphia public safety, drexel and Upenn Police departments and others as well. The twitter text data can be used to understand the nature of crimes in the philadelphia region.(https://developer.twitter.com/en/docs/twitter-api)
